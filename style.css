@@ -49,19 +49,25 @@
     padding: 80px 80px;
     font-size: 60px;
   }
-  
-  #backButton {
-    display: inline-block;
-    margin-top: 100px;
-    padding: 12px 24px;
-    background-color: red;
-    color: white;
-    font-size: 25px;
-    text-decoration: none;
-    border-radius: 8px;
-    }
-  
-  #backButton:hover {
-    background-color: darkred;
-  }
-  
+  #buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+#backButton {
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.397);
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+#backButton:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+#backButton img {
+  width: 52px;
+  height: 52px;
+  display: block;
+}
