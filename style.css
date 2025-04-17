@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://i.imgur.com/YLRgVQO.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arial', sans-serif; /* Usando Arial Bold */
+    font-weight: bold; /* Definindo o peso da fonte como Bold */
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* fundo escurecido por trás do texto */
+    padding: 40px;
+    border-radius: 12px;
+  }
+  
+  #countdown span {
+    color: red;
+  }
+  
+  #backButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  #backButton:hover {
+    background-color: darkred;
+  }
+  
