@@ -29,27 +29,37 @@
   
   #container {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 140px;
     padding: 40px;
     border-radius: 10px;
     display: none; 
   }
+  #message {
+   font-size: 44px;
+   }
+
+  #finalMessage {
+    font-size: 44px;
+   }
   
   #countdown span {
     color: red;
+    display: flex;
+    justify-content: center;
+    padding: 80px 80px;
+    font-size: 60px;
   }
   
   #backButton {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 12px 24px;
     background-color: red;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     border-radius: 8px;
-    transition: background-color 0.3s;
-  }
+    }
   
   #backButton:hover {
     background-color: darkred;
