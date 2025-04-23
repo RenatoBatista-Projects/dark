@@ -18,7 +18,7 @@ window.onload = function () {
   
     function iniciarContagem() {
       const anoAtual = new Date().getFullYear();
-     const targetDate = new Date(anoAtual, 3, 24, 12, 0, 0);
+     const targetDate = new Date(anoAtual, 3, 24, 0, 0, 0);
 
   
       function updateCountdown() {
